@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Tombola</title>
+   <link rel="stylesheet" href="assets/ok.css">
+</head>
+<body>
+
+  <h1>Tombola</h1>
+
+  <div class="controls">
+    <label for="numTabelline">Numero Caselle: </label>
+    <select id="numTabelline">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button onclick="iniziaPartita()">Inizia Partita</button>
+    <button onclick="estraiNumero()">Estrai Numero</button>
+    <button onclick="resetTabellone()">Reset</button>
+  </div>
+
+  <div id="tabellone"></div>
+  <div class="tabelline-container" id="tabellineContainer"></div>
+
+  <script src="./assets/java.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+  

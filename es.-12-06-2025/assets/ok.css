@@ -1,0 +1,63 @@
+ body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+      font-family: sans-serif;
+      background-color: #8c8787;
+    }
+
+    #tabellone {
+      display: grid;
+      grid-template-columns: repeat(10, 40px);
+      gap: 5px;
+      margin-bottom: 20px;
+    }
+
+    .cella, .cella-tabellina {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border: 1px solid #ccc;
+      font-weight: bold;
+    }
+
+    .estratto {
+      background-color: #2add3fc1;
+      color: black;
+    }
+
+    .tabelline-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .tabellina {
+      display: grid;
+      grid-template-columns: repeat(6, 40px);
+      gap: 5px;
+      padding: 10px;
+      background-color: #8c8787;
+      border: 2px solid black;
+    }
+
+    .controls {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+    select {
+      font-size: 16px;
+      padding: 5px;
+    }
